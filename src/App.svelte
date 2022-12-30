@@ -5,8 +5,8 @@
   <div class="container">
     <div class="wrapper">
       <form action="">
-        <input type="text" />
-        <input type="password" />
+        <input type="text" placeholder="Email" />
+        <input type="password" placeholder="Password" />
       </form>
     </div>
   </div>
