@@ -23,6 +23,10 @@
   flex-direction: column;
   gap: 2rem;
 }
+.container .wrapper header p {
+  color: #7c7c7c;
+  font-size: 0.9rem;
+}
 .container .wrapper form {
   display: flex;
   flex-direction: column;
@@ -30,7 +34,7 @@
 }
 .container .wrapper form input {
   padding: 1rem;
-  border: 1px solid #846e91;
+  border: 1px solid #7c7c7c;
 }
 .container .wrapper form input:focus {
   outline: 1px solid #360970;
