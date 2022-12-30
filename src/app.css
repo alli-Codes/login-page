@@ -14,7 +14,6 @@
 }
 .container .wrapper {
   background-color: white;
-  height: 30rem;
   width: 30rem;
   padding: 4rem 2rem;
   display: flex;
@@ -31,6 +30,10 @@
 }
 .container .wrapper form button {
   padding: 1rem;
+}
+.container .wrapper form a {
+  font-size: 0.8rem;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=app.css.map */

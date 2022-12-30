@@ -11,6 +11,7 @@
       <input type="text" placeholder="Email" />
       <input type="password" placeholder="Password" />
       <button>Login</button>
+      <a href=".">Forgotten Password?</a>
     </form>
   </div>
 </div>
