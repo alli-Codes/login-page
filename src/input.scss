@@ -15,6 +15,20 @@
     .wrapper{
         background-color: white;
         height: 30rem;
-        width: 30rem
+        width: 30rem;
+        padding: 4rem 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+
+            input{
+                padding: 1rem;
+            }
+        }
     }
 }
