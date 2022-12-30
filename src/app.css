@@ -29,6 +29,9 @@
   padding: 1rem;
 }
 .container .wrapper form button {
+  color: white;
+  background-color: #360970;
+  border: none;
   padding: 1rem;
 }
 .container .wrapper form a {
