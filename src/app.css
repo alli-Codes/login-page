@@ -32,6 +32,24 @@
   flex-direction: column;
   gap: 2rem;
 }
+.container .wrapper form section {
+  background-color: red;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+.container .wrapper form section input {
+  width: 100%;
+  position: absolute;
+}
+.container .wrapper form section .icon {
+  justify-self: flex-end;
+  position: sticky;
+  top: 0;
+  transform: translate(-1rem);
+  cursor: pointer;
+}
 .container .wrapper form input {
   padding: 1rem;
   border: 1px solid #7c7c7c;

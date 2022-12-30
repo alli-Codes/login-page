@@ -1,7 +1,7 @@
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
-<main style="width: 1.5rem;">
+<main class="icon" style="width: 1.2rem;">
   <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none">
-    <g fill="#000000" fill-rule="evenodd" clip-rule="evenodd">
+    <g fill="#7c7c7c" fill-rule="evenodd" clip-rule="evenodd">
       <path
         d="M8 5a3 3 0 100 6 3 3 0 000-6zM6.5 8a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
       />

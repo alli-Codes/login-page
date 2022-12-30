@@ -40,6 +40,26 @@ $secondary-color: #7c7c7c;
             flex-direction: column;
             gap: 2rem;
 
+            section{
+                background-color: red;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                position: relative;
+               input{
+                width: 100%;
+                position: absolute;
+               }
+               .icon{
+                
+                justify-self: flex-end;
+                position: sticky;
+                top: 0;
+                transform: translate(-1rem);
+                cursor: pointer;
+               }
+            }
+
             input{
                 padding: 1rem;
                 border: 1px solid $secondary-color;

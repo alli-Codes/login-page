@@ -10,8 +10,10 @@
     </header>
     <form action="">
       <input type="text" placeholder="Email" />
-      <input type="password" placeholder="Password" />
-      <Icon />
+      <section>
+        <input type="password" placeholder="Password" />
+        <Icon />
+      </section>
       <button>Login</button>
       <a href=".">Forgotten Password?</a>
     </form>
