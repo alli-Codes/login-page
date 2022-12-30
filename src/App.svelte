@@ -1,4 +1,5 @@
 <script>
+  import Icon from "./Icon.svelte";
 </script>
 
 <div class="container">
@@ -10,6 +11,7 @@
     <form action="">
       <input type="text" placeholder="Email" />
       <input type="password" placeholder="Password" />
+      <Icon />
       <button>Login</button>
       <a href=".">Forgotten Password?</a>
     </form>
