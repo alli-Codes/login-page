@@ -33,7 +33,6 @@
   gap: 2rem;
 }
 .container .wrapper form section {
-  background-color: red;
   display: flex;
   justify-content: flex-end;
   align-items: center;

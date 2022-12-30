@@ -12,7 +12,7 @@
       <input type="text" placeholder="Email" />
       <section>
         <input type="password" placeholder="Password" />
-        <Icon />
+        <Icon show={false} />
       </section>
       <button>Login</button>
       <a href=".">Forgotten Password?</a>
