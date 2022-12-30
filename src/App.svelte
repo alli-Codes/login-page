@@ -1,5 +1,9 @@
 <script>
   import Icon from "./Icon.svelte";
+  let show = false;
+  function togglePassword() {
+    show = !show;
+  }
 </script>
 
 <div class="container">
@@ -12,7 +16,7 @@
       <input type="text" placeholder="Email" />
       <section>
         <input type="password" placeholder="Password" />
-        <Icon show={false} />
+        <Icon {show} {togglePassword} />
       </section>
       <button>Login</button>
       <a href=".">Forgotten Password?</a>

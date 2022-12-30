@@ -1,9 +1,11 @@
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
 <script>
+  export let togglePassword;
   export let show;
 </script>
 
-<main class="icon" style="width: 1.2rem;">
+<!-- svelte-ignore a11y-click-events-have-key-events -->
+<main on:click={togglePassword} class="icon" style="width: 1.2rem;">
   {#if !show}
     <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none">
       <g fill="#7c7c7c" fill-rule="evenodd" clip-rule="evenodd">
