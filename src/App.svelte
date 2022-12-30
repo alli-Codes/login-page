@@ -10,6 +10,7 @@
     <form action="">
       <input type="text" placeholder="Email" />
       <input type="password" placeholder="Password" />
+      <button>Login</button>
     </form>
   </div>
 </div>
