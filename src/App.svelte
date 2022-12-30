@@ -1,8 +1,10 @@
 <script>
   import Icon from "./Icon.svelte";
   let show = false;
+  let type = "password";
   function togglePassword() {
     show = !show;
+    type == "password" ? (type = "text") : (type = "password");
   }
 </script>
 
@@ -15,7 +17,7 @@
     <form action="">
       <input type="text" placeholder="Email" />
       <section>
-        <input type="password" placeholder="Password" />
+        <input {type} placeholder="Password" />
         <Icon {show} {togglePassword} />
       </section>
       <button>Login</button>
