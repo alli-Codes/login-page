@@ -16,9 +16,10 @@
   background-color: white;
   width: 30rem;
   padding: 4rem 2rem;
+  border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
 }
 .container .wrapper form {
   display: flex;
