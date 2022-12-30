@@ -30,6 +30,10 @@
 }
 .container .wrapper form input {
   padding: 1rem;
+  border: 1px solid #846e91;
+}
+.container .wrapper form input:focus {
+  outline: 1px solid #360970;
 }
 .container .wrapper form button {
   color: white;
