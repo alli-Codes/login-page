@@ -29,5 +29,8 @@
 .container .wrapper form input {
   padding: 1rem;
 }
+.container .wrapper form button {
+  padding: 1rem;
+}
 
 /*# sourceMappingURL=app.css.map */
