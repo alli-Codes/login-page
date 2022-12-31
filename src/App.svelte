@@ -1,14 +1,25 @@
 <script>
-  import { element } from "svelte/internal";
+  import loginSchema from "./schema";
   import Icon from "./Icon.svelte";
   let show = false;
   let type = "password";
   let inputData = {};
-  function togglePassword() {
+  const togglePassword = function () {
     show = !show;
     type == "password" ? (type = "text") : (type = "password");
-    console.log(inputData.email.value, inputData.password.value);
-  }
+  };
+  const validate = function () {
+    let email = inputData.email.value;
+    let password = inputData.password.value;
+
+    let result = loginSchema.validate({
+      email: email,
+      password: password,
+    });
+
+    console.log(result);
+    // console.log(email, password);
+  };
 </script>
 
 <div class="container">
@@ -19,9 +30,19 @@
     </header>
     <!-- svelte-ignore a11y-click-events-have-key-events -->
     <form action="" on:click|preventDefault>
-      <input type="text" placeholder="Email" bind:this={inputData.email} />
+      <input
+        on:input={validate}
+        type="text"
+        placeholder="Email"
+        bind:this={inputData.email}
+      />
       <section>
-        <input {type} placeholder="Password" bind:this={inputData.password} />
+        <input
+          on:input={validate}
+          {type}
+          placeholder="Password"
+          bind:this={inputData.password}
+        />
         <Icon {show} {togglePassword} />
       </section>
       <button>Login</button>
