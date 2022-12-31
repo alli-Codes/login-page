@@ -193,11 +193,17 @@ is-core-module@^2.9.0:
   dependencies:
     has "^1.0.3"
 
-json-validace@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/json-validace/-/json-validace-1.0.1.tgz#79a781ed4549c788a796be68a25b9ce81cd65dea"
-  integrity sha512-2Dse8pQ2rdIELDBJk2WIiLa9WATNVOyViKgAZh8rnIx+A9mKtEKo5rpV/2k8HogJ8CiJ8rJSK9LcNehbu2xkcA==
+is-number@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
+  integrity sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==
+
+json-validace@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/json-validace/-/json-validace-1.1.1.tgz#e14aad491ff5d5ac8c586ea402c5bcb14409d8d5"
+  integrity sha512-g+k68UDElfQCD4RTdgTfUK+UAgezWL4Gx9HiTLyljjwqFHZ5vJ32xZ6cuh0NUqoiU7m5Etm4onHj6hduxfSDig==
   dependencies:
+    to-regex-range "^5.0.1"
     validator "^13.7.0"
 
 kleur@^4.1.5:
@@ -276,6 +282,13 @@ svelte@^3.54.0:
   version "3.55.0"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.55.0.tgz#29cb958750a23e751309a6535ccd811fcabc9038"
   integrity sha512-uGu2FVMlOuey4JoKHKrpZFkoYyj0VLjJdz47zX5+gVK5odxHM40RVhar9/iK2YFRVxvfg9FkhfVlR0sjeIrOiA==
+
+to-regex-range@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/to-regex-range/-/to-regex-range-5.0.1.tgz#1648c44aae7c8d988a326018ed72f5b4dd0392e4"
+  integrity sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==
+  dependencies:
+    is-number "^7.0.0"
 
 validator@^13.7.0:
   version "13.7.0"
