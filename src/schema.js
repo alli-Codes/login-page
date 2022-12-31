@@ -1,5 +1,4 @@
-// Filename: validace.schema.js
-const jsonValidace = require("json-validace");
+import jsonValidace from "json-validace";
 
 // create a validace schema
 const loginSchema = new jsonValidace.Schema({
@@ -16,4 +15,4 @@ const loginSchema = new jsonValidace.Schema({
 });
 
 // export loginSchema
-module.exports = loginSchema;
+export default loginSchema;
