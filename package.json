@@ -15,6 +15,6 @@
     "vite": "^4.0.0"
   },
   "dependencies": {
-    "json-validace": "^1.1.1"
+    "json-validace": "^2.0.0"
   }
 }
