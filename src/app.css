@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -14,6 +15,7 @@
   align-items: center;
   font-family: "Roboto", sans-serif;
 }
+
 .container .wrapper {
   background-color: white;
   width: 30rem;
@@ -21,47 +23,66 @@
   border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: .5rem;
 }
+
 .container .wrapper header p {
   color: #7c7c7c;
   font-size: 0.9rem;
 }
+
 .container .wrapper form {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  /* gap: .5rem; */
 }
+
 .container .wrapper form section {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   position: relative;
+  flex-flow: column;
+  width: 100%;
 }
+
+form .message {
+  padding: .5em 0;
+  height: 1em;
+  padding-bottom: 2.5em;
+}
+
 .container .wrapper form section input {
   width: 100%;
-  position: absolute;
 }
+
 .container .wrapper form section .icon {
-  justify-self: flex-end;
+  /* justify-self: center; */
   position: sticky;
-  top: 0;
-  transform: translate(-1rem);
+  position: absolute;
+  right: 0;
+  top: 30%;
+  transform: translate(-.5rem);
   cursor: pointer;
 }
+
 .container .wrapper form input {
   padding: 1rem;
   border: 1px solid #7c7c7c;
+  width: 100%;
 }
+
 .container .wrapper form input:focus {
   outline: 1px solid #360970;
 }
+
 .container .wrapper form button {
   color: white;
   background-color: #360970;
   border: none;
   padding: 1rem;
 }
+
 .container .wrapper form a {
   color: #360970;
   font-size: 0.9rem;

@@ -3,13 +3,13 @@
 $primary-color: #360970;
 $secondary-color: #7c7c7c;
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.container{
+.container {
     background-color: $primary-color;
     height: 100vh;
     width: 100%;
@@ -18,7 +18,7 @@ $secondary-color: #7c7c7c;
     align-items: center;
     font-family: 'Roboto', sans-serif;
 
-    .wrapper{
+    .wrapper {
         background-color: white;
         // height: 30rem;
         width: 30rem;
@@ -26,55 +26,59 @@ $secondary-color: #7c7c7c;
         border-radius: .5rem;
         display: flex;
         flex-direction: column;
-        gap: 2rem;
+        gap: .3rem;
 
-        header{
-            p{
+        header {
+            p {
                 color: $secondary-color;
                 font-size: .9rem;
             }
         }
 
-        form{
+        form {
             display: flex;
             flex-direction: column;
-            gap: 2rem;
+            gap: .4rem;
 
-            section{
+            section {
                 display: flex;
                 justify-content: flex-end;
                 align-items: center;
-                position: relative;
-               input{
-                width: 100%;
-                position: absolute;
-               }
-               .icon{
-                
-                justify-self: flex-end;
-                position: sticky;
-                top: 0;
-                transform: translate(-1rem);
-                cursor: pointer;
-               }
+                // position: relative;
+
+                input {
+                    width: 100%;
+                    // position: absolute;
+                }
+
+                .icon {
+
+                    justify-self: flex-end;
+                    position: sticky;
+                    top: 0;
+                    transform: translate(-1rem);
+                    cursor: pointer;
+                }
             }
 
-            input{
+            input {
                 padding: 1rem;
                 border: 1px solid $secondary-color;
+
                 &:focus {
-                        outline: 1px solid $primary-color
-                    }
+                    outline: 1px solid $primary-color
+                }
             }
-                        
-            button{
+
+            button {
                 color: white;
                 background-color: $primary-color;
                 border: none;
                 // font-size: 1rem;
                 padding: 1rem;
             }
-            a{
+
+            a {
                 color: $primary-color;
                 font-size: .9rem;
                 text-decoration: none;
